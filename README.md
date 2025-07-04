@@ -26,19 +26,19 @@ Para utilizar o shell script
 
 ```
 
-## Funcionalidades
+## Programas
 
-- Verifica se um número é primo
+### primo.cpp
 
-- Manipula matrizes
+O programa primo.cpp verifica se algum número é ou não primo.
 
-- Manipula vetores
+### vetor.cpp
 
-- Automatizar casos de teste para as funcionalidades acima 
+O programa vetor.cpp lê um valor n e por meio das entradas no terminal preenche um vetor de tamanho n. Após isso o programa mostra na saída o maior valor informado.
 
 ## Dificuldades
 
-- Não consegui unificar as branchs, consegui fazer todas e separar o conteudo entre elas, porém quando eu usava o merge eu perdia tudo que estava na branch atual. Exemplo: na branch main: git merge verificador-de-primo, ao rodar este comando tudo que estava na branch main era substituido pelo que estava na branch verificador-de-primo.
+- Tive muita dificildade para unificar as branchs, porém após auxilio do professor acredito que agora está tudo correto.
 
 # TESTES
 

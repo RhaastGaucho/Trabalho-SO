@@ -2,26 +2,26 @@
 
 using namespace std;
 
-int main() {
+int main(){
     int n;
 
-    cin >> n;
+    cin>>n;
 
     int maior;
 
-    for (int i = 0; i < n; ++i) {
+    for(int i = 0; i < n; i++){
         int valor;
 
-        cin >> valor;
+        cin>>valor;
 
-        if (i == 0 || valor > maior) {
+        if(i == 0 || valor > maior){
             maior = valor;
         }
     }
 
     cout<<endl;
     
-    cout << maior << endl;
+    cout<<maior<<endl;
 
     return 0;
 }

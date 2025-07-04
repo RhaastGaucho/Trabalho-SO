@@ -26,16 +26,26 @@ Para utilizar o shell script
 
 ```
 
-## Programas
+## Funcionalidades
 
 ### primo.cpp
 
 O programa primo.cpp verifica se algum número é ou não primo.
 
+#### generate-test-primo.sh
+
+O script shell realiza diversos casos de teste de 0 até 100 verificando se os números são primos ou não.
+
 ### vetor.cpp
 
 O programa vetor.cpp lê um valor n e por meio das entradas no terminal preenche um vetor de tamanho n. Após isso o programa mostra na saída o maior valor informado.
 
+### matriz.cpp
+
+O programa matriz.cpp lê um valor n e por meio das entradas no terminal preenche duas matrizes nxn. Após isso o programa solicita que informa a operação que ele deve realizar entre as matrizes: a (adição), s (subtração) ou m (multiplicação). O programa irá retornar o resultado da operação entre matrizes escolhida.
+
+
+ 
 ## Dificuldades
 
 - Tive muita dificildade para unificar as branchs, porém após auxilio do professor acredito que agora está tudo correto.
